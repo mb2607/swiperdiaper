@@ -30,55 +30,55 @@ GestureDetector.OnDoubleTapListener{
 
     @Override
     public boolean onSingleTapConfirmed(MotionEvent e) {
-        buckysMessage.setText("onSingleTapConfirmed");
+        buckysMessage.setText("SingleTapConfirmed");
         return true;
     }
 
     @Override
     public boolean onDoubleTap(MotionEvent e) {
-        buckysMessage.setText("onDoubleTap");
+        buckysMessage.setText("DoubleTap");
         return true;
     }
 
     @Override
     public boolean onDoubleTapEvent(MotionEvent e) {
-        buckysMessage.setText("onDoubleTapEvent");
+        buckysMessage.setText("DoubleTapEvent");
         return true;
     }
 
     @Override
     public boolean onDown(MotionEvent e) {
-        buckysMessage.setText("onDown");
+        buckysMessage.setText("Down");
 
         return true;
     }
 
     @Override
     public void onShowPress(MotionEvent e) {
-        buckysMessage.setText("onShowPress");
+        buckysMessage.setText("ShowPress");
     }
 
     @Override
     public boolean onSingleTapUp(MotionEvent e) {
-        buckysMessage.setText("onSingleTapUp");
+        buckysMessage.setText("SingleTapUp");
         return true;
     }
 
     @Override
     public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-        buckysMessage.setText("onScroll");
+        buckysMessage.setText("Scroll");
         return true;
     }
 
     @Override
     public void onLongPress(MotionEvent e) {
-        buckysMessage.setText("onLongPress");
+        buckysMessage.setText("LongPress");
 
     }
 
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-        buckysMessage.setText("onFling");
+        buckysMessage.setText("Fling");
         return true;
     }
 
